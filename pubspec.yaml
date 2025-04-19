@@ -1,0 +1,16 @@
+name: chicken_tracker
+description: A working chicken tracking app.
+version: 1.0.0+1
+
+environment:
+  sdk: '>=2.17.0 <3.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  intl: any
+  google_mobile_ads: any
+  shared_preferences: any
+
+flutter:
+  uses-material-design: true
